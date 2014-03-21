@@ -1,0 +1,19 @@
+{
+  "name": "js_bench",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "rsvp": "~3.0.6",
+    "async": "~0.2.10",
+    "q": "~1.0.1",
+    "mocha": "~1.18.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "BSD"
+}
