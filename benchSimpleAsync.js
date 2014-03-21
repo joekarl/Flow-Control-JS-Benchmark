@@ -24,7 +24,8 @@ function doRun(i, cb) {
       wait10,
       wait10,
       wait10
-    ], function(){
+    ], function(errors, results){
+        assert.equal(results.length, 4);
         assert.ok(new Date().getTime() - start >= 10);
         cb(i);
     });
