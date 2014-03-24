@@ -1,4 +1,4 @@
-#Async vs RSVP vs Q vs Native callbacks
+#Async vs RSVP vs Q vs Bluebird vs when.js vs Native callbacks
 Basic set of code to look at performance overhead of using flow control libraries
 vs native callbacks
 
@@ -30,6 +30,6 @@ there are tests that can be run with `npm test`
 * Q - didn't finish (stopped after 40s)
 * RSVP - 8.2s
 * Async.js - 7.3s
+* When.js - 4.1s
+* BlueBird - 1.3s
 * Native callbacks - 0.8s
-
-![](benchResults.png)
